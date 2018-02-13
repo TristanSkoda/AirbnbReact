@@ -1,0 +1,56 @@
+.experiences-container{
+    
+    width: 100%;
+}
+.experiences-container img{
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+}
+.list-experiences{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.experience{
+    height: 100%;
+    width: 24%;
+    margin-bottom: 3rem;
+}
+.experience-img{
+    height: 57%;
+}
+.experience-text{
+    height: 43%;
+}
+.experience-stars{
+    display: flex;
+    font-size: .65rem;
+    margin-right: .178rem;
+
+}
+.experience-rating{
+    display: flex;
+    font-size: .8rem;
+}
+@media (max-width: 1200px) { 
+	.experience{
+        width: 32%;
+    }
+}
+
+
+@media (max-width: 992px) { 
+    .experience{
+        width: 49%;
+    }
+}
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 576px) { 
+  
+}

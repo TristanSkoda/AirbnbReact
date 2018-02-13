@@ -1,0 +1,134 @@
+footer{
+    border-top: 1px solid rgba(104, 103, 103, 0.244);
+   
+    padding-top: 3rem;
+    
+}
+.footer-container{
+    margin: 0 8%;
+}
+.footer-top{
+    padding-bottom: 2rem;
+    display: flex;
+}
+.footer-bottom{
+    border-top: 1px solid rgba(104, 103, 103, 0.244);
+    padding: 1.5rem 0 3rem 0;
+    display: flex;
+}
+.currency-language{
+    width: 25%;
+    
+}
+.border {
+    height: 3rem;
+    border: 1px solid rgba(90, 90, 90, 0.244); 
+    border-radius: 3px;
+    margin-bottom: .5rem;
+    align-items: center;
+    padding-left: .75rem;
+    display: flex;
+}
+.footer-text-link{
+    
+   
+}
+.footer-top ul{
+    display: block;
+    justify-content: flex-start;
+    padding-bottom: .3rem;
+}
+.footer-bottom ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-top  li{
+    padding: 0 0 .3rem 0;
+
+}
+.footer-bottom  li{
+    padding: 0 1rem 0 0;
+
+}
+.footer-bottom li {
+    display: flex;
+}
+.footer-container h3{
+    padding-bottom: 1.2rem;
+}
+.footer-container a{
+    color: #767676;
+   
+}
+.footer-texts-container{
+    
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-bottom-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.footer-bottom-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 1200px) { 
+	.footer-container{
+        margin: 0 3%;
+    }
+}
+
+
+@media (max-width: 992px) { 
+  
+}
+
+@media (max-width: 768px) {
+    .footer-texts-container{
+        display: none;
+    }
+    .currency-language{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .border {
+        width: 48%;
+        height: 3rem;
+        border: 1px solid rgba(90, 90, 90, 0.244); 
+        border-radius: 3px;
+        margin-bottom: 0;
+        align-items: center;
+        padding-left: 0;
+        padding: 1rem;
+        display: flex;
+    }
+    .footer-bottom{
+        border-top: 1px solid rgba(104, 103, 103, 0.244);
+        padding: 1.5rem 0 3rem 0;
+        display: block;
+    }
+    .footer-bottom-left{
+        width: auto;
+        display: block;
+        align-items: flex-start;
+    }
+    .footer-bottom-right{
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+
+@media (max-width: 576px) { 
+  
+}
