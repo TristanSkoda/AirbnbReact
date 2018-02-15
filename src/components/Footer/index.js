@@ -21,7 +21,7 @@ export default class Footer extends React.Component {
 		terms: ["Terms", "Privacy", "Site Map"]
 	};
 
-	renderLinks = array => array.map((item, index) => <li key={index}><a href="">{console.log(item)}{item}</a></li>);
+	renderLinks = array => array.map((item, index) => <li key={index}><a href="">{item}</a></li>);
 
 	renderFooterText = categories => categories.map((category, index) =>
 		<div className="footer-text-link" key={index}>
@@ -56,17 +56,17 @@ export default class Footer extends React.Component {
 							{this.renderLinks(this.state.terms)}
 							<li>
 								<a href="">
-									<span class="fa fa-facebook"></span>
+									<span className="fa fa-facebook"></span>
 								</a>
 							</li>
 							<li>
 								<a href="">
-									<span class="fa fa-twitter"></span>
+									<span className="fa fa-twitter"></span>
 								</a>
 							</li>
 							<li>
 								<a href="">
-									<span class="fa fa-instagram"></span>
+									<span className="fa fa-instagram"></span>
 								</a>
 							</li>
 						</ul>
